@@ -177,14 +177,6 @@ int AkmSensor::setDelay(int32_t handle, int64_t ns)
         close(fd);
      }
 
-    fd = open("/sys/class/sensors/ssp_sensor/ori_poll_delay", O_RDWR);
-    if (fd >= 0) {
-        char buf[80];
-        sprintf(buf, "%lld", ns);
-        write(fd, buf, strlen(buf)+1);
-        close(fd);
-     }
-
     mDelays[what] = ns;
     return 0;
 }
