@@ -11,7 +11,7 @@ $(call inherit-product, vendor/carbon/config/common_phone.mk)
 PRODUCT_DEVICE := t0lte
 PRODUCT_NAME := carbon_t0lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := GT-N7105
+PRODUCT_MODEL := Note II
 PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint / ID / Product Name ect.
