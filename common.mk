@@ -30,6 +30,10 @@ endif
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Bootanimation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Audio
 PRODUCT_PACKAGES += \
     tiny_hw
