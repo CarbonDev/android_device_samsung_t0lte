@@ -15,10 +15,6 @@
         "revision": "android-4.4"
     },
     {
-        "repository": "CarbonDev/android_device_samsung_t0lte",
-        "target_path": "device/samsung/t0lte"
-    },
-    {
         "repository": "CarbonDev/proprietary_vendor_samsung",
         "target_path": "vendor/samsung"
     }
