@@ -1,11 +1,11 @@
 # Release name
 PRODUCT_RELEASE_NAME := t0lte
 
-# Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/samsung/t0lte/full_t0lte.mk)
+
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := t0lte
