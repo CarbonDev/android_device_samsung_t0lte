@@ -38,9 +38,9 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     tiny_hw
 
-# Camera
+# Camera Wrapper
 PRODUCT_PACKAGES += \
-    camera.smdk4x12
+    camera.exynos4
 
 # NFC
 PRODUCT_PACKAGES += \
