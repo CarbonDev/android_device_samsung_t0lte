@@ -36,6 +36,7 @@ TARGET_KERNEL_CONFIG := custom_t0ltecdma_defconfig
 else
 TARGET_KERNEL_CONFIG := custom_t0lte_defconfig
 endif
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
 
 # GPS
 BOARD_GPS_SET_PRIVACY := true
